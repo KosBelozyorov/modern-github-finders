@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/modern-github-finders/static/css/main.e256f8e7.chunk.css",
-    "main.js": "/modern-github-finders/static/js/main.f9d4a6f3.chunk.js",
-    "main.js.map": "/modern-github-finders/static/js/main.f9d4a6f3.chunk.js.map",
+    "main.css": "/modern-github-finders/static/css/main.d238ff6d.chunk.css",
+    "main.js": "/modern-github-finders/static/js/main.43184f97.chunk.js",
+    "main.js.map": "/modern-github-finders/static/js/main.43184f97.chunk.js.map",
     "runtime-main.js": "/modern-github-finders/static/js/runtime-main.c070331c.js",
     "runtime-main.js.map": "/modern-github-finders/static/js/runtime-main.c070331c.js.map",
     "static/js/2.796aa639.chunk.js": "/modern-github-finders/static/js/2.796aa639.chunk.js",
     "static/js/2.796aa639.chunk.js.map": "/modern-github-finders/static/js/2.796aa639.chunk.js.map",
     "index.html": "/modern-github-finders/index.html",
-    "precache-manifest.3c72c532e7258c96209bf886126b8c86.js": "/modern-github-finders/precache-manifest.3c72c532e7258c96209bf886126b8c86.js",
+    "precache-manifest.1a14094c5e02144cbbdd9c8f4e5dabf7.js": "/modern-github-finders/precache-manifest.1a14094c5e02144cbbdd9c8f4e5dabf7.js",
     "service-worker.js": "/modern-github-finders/service-worker.js",
-    "static/css/main.e256f8e7.chunk.css.map": "/modern-github-finders/static/css/main.e256f8e7.chunk.css.map"
+    "static/css/main.d238ff6d.chunk.css.map": "/modern-github-finders/static/css/main.d238ff6d.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.c070331c.js",
     "static/js/2.796aa639.chunk.js",
-    "static/css/main.e256f8e7.chunk.css",
-    "static/js/main.f9d4a6f3.chunk.js"
+    "static/css/main.d238ff6d.chunk.css",
+    "static/js/main.43184f97.chunk.js"
   ]
 }
