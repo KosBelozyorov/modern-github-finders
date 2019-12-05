@@ -12,27 +12,23 @@ import AlertState from './context/alert/AlertState';
 
 import './App.css';
 
-const App = () => {
-  return (
-    <GithubState>
-      <AlertState>
-        <HashRouter>
-          <div className='App'>
-            <Navbar />
-            <div className='container'>
-              <Alert />
-              <Switch>
-                <Route exact path='/' component={Home} />
-                <Route exact path='/about' component={About} />
-                <Route exact path='/user/:login' component={User} />
-                <Route component={NotFound} />
-              </Switch>
-            </div>
-          </div>
-        </HashRouter>
-      </AlertState>
-    </GithubState>
-  );
-};
+const App = () => (
+  <GithubState>
+    <AlertState>
+      <HashRouter>
+        <Navbar />
+        <div className="container">
+          <Alert />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/user/:login" component={User} />
+            <Route component={NotFound} />
+          </Switch>
+        </div>
+      </HashRouter>
+    </AlertState>
+  </GithubState>
+);
 
 export default App;

@@ -10,15 +10,15 @@ const Users = () => {
 
   if (loading) {
     return <Spinner />;
-  } else {
-    return (
-      <div className='grid'>
-        {users.map(user => (
-          <UserItem key={user.id} user={user} />
-        ))}
-      </div>
-    );
   }
+
+  return (
+    <div className="grid">
+      {users.map(user => (
+        <UserItem key={user.id} user={user} />
+      ))}
+    </div>
+  );
 };
 
 export default Users;

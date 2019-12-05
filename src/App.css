@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 /* Global Styles */
 :root {
   --primary-color: #dc3545;
-  --dark-color: #333333;
+  --dark-color: #333;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
   --success-color: #28a745;
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;
@@ -89,6 +89,10 @@ img {
 
 .card .btn {
   color: #fff;
+}
+
+.card.grid-2 .round-img {
+  width: 150px;
 }
 
 /* List */
@@ -235,10 +239,10 @@ input {
   color: #888;
 }
 
-input[type='text'],
-input[type='email'],
-input[type='password'],
-input[type='date'],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
 select,
 textarea {
   display: block;
@@ -248,7 +252,7 @@ textarea {
   border: 1px solid #ccc;
 }
 
-input[type='submit'],
+input[type="submit"],
 button {
   font: inherit;
 }
@@ -287,7 +291,7 @@ button {
 }
 
 .navbar li > a::after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 2px;
@@ -301,6 +305,23 @@ button {
 
 .navbar .welcome span {
   margin-right: 0.6rem;
+}
+
+/*Alert*/
+.fas.fa-info-circle {
+  margin-right: 10px;
+}
+
+/*Avatar*/
+.user-avatar {
+  width: 60px;
+}
+
+/* Spinner */
+.spinner {
+  display: block;
+  width: 200px;
+  margin: auto;
 }
 
 /* Mobile Styles */
