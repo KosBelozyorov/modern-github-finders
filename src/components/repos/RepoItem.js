@@ -9,6 +9,11 @@ const RepoItem = ({ repo }) => (
   </div>
 );
 
-RepoItem.propTypes = { repo: PropTypes.object.isRequired };
+RepoItem.propTypes = {
+  repo: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    html_url: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
 export default RepoItem;
